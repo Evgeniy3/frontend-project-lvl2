@@ -2,7 +2,7 @@ import { readFile } from './utils.js';
 import buildTree from './tree.js';
 import format from './format/index.js';
 
-const getDiff = (filepath1, filepath2, formatName = 'stylish') => {
+const genDiff = (filepath1, filepath2, formatName = 'stylish') => {
   const file1 = readFile(filepath1);
 
   const file2 = readFile(filepath2);
@@ -16,4 +16,4 @@ const getDiff = (filepath1, filepath2, formatName = 'stylish') => {
   return format(tree, formatName);
 };
 
-export default getDiff;
+export default genDiff;
