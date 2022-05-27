@@ -4,7 +4,7 @@
   "description": "Hexlet project lvl 2",
   "main": "bin/gendiff.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "type": "module",
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Evgeniy3/frontend-project-lvl2#readme",
   "dependencies": {
+    "@jest/globals": "^28.1.0",
     "commander": "^9.2.0",
     "fs": "^0.0.1-security",
     "jest-globals": "^0.1.7",
