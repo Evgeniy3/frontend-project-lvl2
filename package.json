@@ -23,6 +23,7 @@
   "dependencies": {
     "@jest/globals": "^28.1.0",
     "commander": "^9.2.0",
+    "eslint-plugin-jest": "^26.4.6",
     "fs": "^0.0.1-security",
     "jest-globals": "^0.1.7",
     "js-yaml": "^4.1.0",
